@@ -1,11 +1,11 @@
-package com.ridrio.geo
+package com.ene.geo
 
 import android.util.Log
-import com.ridrio.core.*
-import com.ridrio.geo.hash.Hash
-import com.ridrio.geo.hash.Query
-import com.ridrio.geo.interfaces.GeoQueryEventListener
-import com.ridrio.geo.utils.GeoUtils
+import com.ene.core.*
+import com.ene.geo.hash.Hash
+import com.ene.geo.hash.Query
+import com.ene.geo.interfaces.GeoQueryEventListener
+import com.ene.geo.utils.GeoUtils
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.EventListener
 import com.google.firebase.firestore.ListenerRegistration

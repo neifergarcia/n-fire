@@ -1,8 +1,8 @@
-package com.ridrio.geo
+package com.ene.geo
 
-import com.ridrio.core.Core
-import com.ridrio.geo.hash.Hash
-import com.ridrio.geo.utils.GeoUtils
+import com.ene.core.Core
+import com.ene.geo.hash.Hash
+import com.ene.geo.utils.GeoUtils
 import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.EventListener
 import com.google.firebase.firestore.ListenerRegistration
@@ -15,6 +15,7 @@ class Geo(private val reference: Array<String>) {
       return if (GeoUtils.coordinatesValid(geoData.location)) geoData.location else null
     }
   }
+
   private val nCore = Core(GeoData())
 
   fun addGeoData(key: String, geoData: GeoData, listener: Core.EneDocumentActionListener? = null) {

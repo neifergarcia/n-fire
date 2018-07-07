@@ -1,7 +1,7 @@
-package com.ridrio.geo.utils
+package com.ene.geo.utils
 
-import com.ridrio.geo.GeoDataLocation
-import com.ridrio.geo.hash.Hash
+import com.ene.geo.GeoDataLocation
+import com.ene.geo.hash.Hash
 
 
 class QueryUtils {

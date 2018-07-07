@@ -1,8 +1,8 @@
-package com.ridrio.geo.hash
+package com.ene.geo.hash
 
-import com.ridrio.geo.GeoDataLocation
-import com.ridrio.geo.utils.Base32Utils
-import com.ridrio.geo.utils.GeoUtils
+import com.ene.geo.GeoDataLocation
+import com.ene.geo.utils.Base32Utils
+import com.ene.geo.utils.GeoUtils
 
 
 class Hash {

@@ -1,10 +1,10 @@
-package com.ridrio.geo.hash
+package com.ene.geo.hash
 
-import com.ridrio.geo.GeoDataLocation
-import com.ridrio.geo.utils.Base32Utils
-import com.ridrio.geo.utils.Constants
-import com.ridrio.geo.utils.GeoUtils
-import com.ridrio.geo.utils.QueryUtils
+import com.ene.geo.GeoDataLocation
+import com.ene.geo.utils.Base32Utils
+import com.ene.geo.utils.Constants
+import com.ene.geo.utils.GeoUtils
+import com.ene.geo.utils.QueryUtils
 
 
 class Query(private val startValue: String, private val endValue: String) {

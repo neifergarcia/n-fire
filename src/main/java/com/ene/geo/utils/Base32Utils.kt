@@ -1,4 +1,4 @@
-package com.ridrio.geo.utils
+package com.ene.geo.utils
 
 
 class Base32Utils {

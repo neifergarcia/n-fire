@@ -1,7 +1,7 @@
-package com.ridrio.geo.utils
+package com.ene.geo.utils
 
-import com.ridrio.geo.GeoData
-import com.ridrio.geo.GeoDataLocation
+import com.ene.geo.GeoData
+import com.ene.geo.GeoDataLocation
 
 class GeoUtils {
   companion object {

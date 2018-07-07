@@ -1,4 +1,4 @@
-package com.ridrio.core
+package com.ene.core
 
 interface QueryEventListener {
   fun onQueryReady()

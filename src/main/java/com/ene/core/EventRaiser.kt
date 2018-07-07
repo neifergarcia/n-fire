@@ -1,4 +1,4 @@
-package com.ridrio.core
+package com.ene.core
 
 import android.os.Handler
 import android.os.Looper

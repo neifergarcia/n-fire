@@ -1,7 +1,7 @@
-package com.ridrio.geo.interfaces
+package com.ene.geo.interfaces
 
-import com.ridrio.core.QueryEventListener
-import com.ridrio.geo.GeoData
+import com.ene.core.QueryEventListener
+import com.ene.geo.GeoData
 
 interface GeoQueryEventListener : QueryEventListener {
 

@@ -1,6 +1,6 @@
-package com.ridrio.geo
+package com.ene.geo
 
-import com.ridrio.core.Object
+import com.ene.core.Object
 
 data class GeoDataLocation(val latitude: Double = 0.0, val longitude: Double = 0.0)
 

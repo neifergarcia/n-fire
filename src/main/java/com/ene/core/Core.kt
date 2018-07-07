@@ -1,4 +1,4 @@
-package com.ridrio.core
+package com.ene.core
 
 import android.util.Log
 import com.google.android.gms.tasks.Task
