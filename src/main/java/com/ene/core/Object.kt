@@ -1,7 +1,9 @@
 package com.ene.core
 
+import android.support.annotation.Keep
 import java.util.*
 
+@Keep
 data class MetaData(
   var id: String = "",
   var createdAt: Long = Date().time,

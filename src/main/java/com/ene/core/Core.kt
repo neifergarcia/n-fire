@@ -6,11 +6,11 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.*
 
 
-class Core(model: Object? = null) {
+class Core(model: Class<out Object>? = null) {
 
   private val TAG = javaClass.simpleName
 
-  private var nObject = model
+  private var nObject: Class<out Object>? = model
 
   private val firestore = FirebaseFirestore.getInstance()
 
@@ -18,12 +18,12 @@ class Core(model: Object? = null) {
     return firestore
   }
 
-  fun setObject(model: Object) {
+  fun setObject(model: Class<out Object>) {
     nObject = model
   }
 
   fun getObjectClass(): Class<out Object> {
-    return nObject!!::class.java
+    return nObject!!
   }
 
   fun addDocument(pathNested: Array<String>, document: Object,
@@ -86,7 +86,7 @@ class Core(model: Object? = null) {
     }
     val docRef = getReferenceNested(pathNested) as DocumentReference
 
-    val isEventListening = listener is EneEventCollectionListener
+    val isEventListening = listener is EneEventDocumentListener
     var registration: ListenerRegistration? = null
     if (isEventListening) {
       registration = docRef.addSnapshotListener(EventListener<DocumentSnapshot> { value, err ->
